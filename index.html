@@ -23,23 +23,22 @@
       body {
         font-family: Outfit;
         background-color: hsl(212, 45%, 89%);
-        font-size: 15px;
       }
       .card {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        margin: 30px auto;
+        margin: 190px auto 30px auto;
         padding: auto;
-        width: 380px;
-        height: 580px;
+        width: 310px;
+        height: 570px;
         background-color: hsl(0, 0%, 100%);
         border-radius: 10px;
       }
       .image {
-        width: 350px;
-        height: 350px;
+        width: 280px;
+        height: 280px;
         margin: 15px;
         background-image: url(images/image-qr-code.png);
         background-size: cover;
@@ -49,27 +48,24 @@
         text-align: center;
         margin: 10px 10px;
       }
-
-      @media screen and (max-width : 375px) {
-        .card {
-        width: 350px;
-        height: 550px;
-      }
-      .image {
-        width: 320px;
-        height: 320px;
-      }
-      }
+      p{
+  font-size: 17px;
+    color:  hsl(216, 15%, 48%);
+}
+     
     </style>
   </head>
   <body>
-    <div class="card">
-      <div class="image"></div>
-      <h1>Improve your front-end skills by building projects</h1>
-      <p>
-        Scan the QR code to visit Frontend Mentor and take your coding skills to
-        the next level
-      </p>
-    </div>
+    <main>
+
+      <div class="card">
+        <div class="image"></div>
+        <h1>Improve your front-end skills by building projects</h1>
+        <p>
+          Scan the QR code to visit Frontend Mentor and take your coding skills to
+          the next level
+        </p>
+      </div>
+    </main>
   </body>
 </html>
